@@ -68,8 +68,6 @@ namespace C_6._0
             await Task.Delay(10);
             Console.WriteLine(message);
         }
-
-
     }
 
     class AppException : Exception
@@ -81,7 +79,11 @@ namespace C_6._0
     {
         static void Main(string[] args)
         {
-            var p1 = new Point(10, 10);            
+            var p1 = new Point(10, 10);
+            Console.WriteLine($"p1 = {p1.ToString()}");            
+
+            Console.WriteLine("\nPress any key to quit!");
+            Console.ReadKey();
         }
     }
 }
