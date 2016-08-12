@@ -65,17 +65,17 @@ namespace StatePattern2
 
         public virtual void InsertCoin()
         {
-            Console.WriteLine("Not a valid thing to do in this state!");
+            Console.WriteLine("InsertCoin() - Not a valid thing to do in this state!");
         }
 
         public virtual void Jump()
         {
-            Console.WriteLine("Not a valid thing to do in this state!");
+            Console.WriteLine("Jump() - Not a valid thing to do in this state!");
         }
 
         public virtual void Quit()
         {
-            Console.WriteLine("Not a valid thing to do in this state!");
+            Console.WriteLine("Quit() - Not a valid thing to do in this state!");
         }
     }
 
